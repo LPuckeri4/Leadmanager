@@ -25,7 +25,7 @@ SECRET_KEY = 'f^x=8c61ulr&9svcc(cxpun&gexr5m%ywwuuakns*s!fg+&uya'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['myleadmanager.herokuapp.com']
 
 
 # Application definition
@@ -128,3 +128,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT =
